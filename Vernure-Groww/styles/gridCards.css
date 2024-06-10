@@ -22,10 +22,12 @@
   column-count: 3;
   column-gap: 10px; /* Adjust column gap */
   margin: 64px auto 0;
+  margin-left: 80px;
+  gap: 30px;
 }
 
 .gridCard {
-  width: 400px; /* Reduced width */
+  width: 300; /* Reduced width */
   max-width: 100%;
   box-sizing: border-box;
   border-radius: 15px; /* Reduced border radius */
