@@ -1,145 +1,146 @@
 .section5 {
-  box-sizing: border-box;
-  width: 1320px;
-  padding: 20px;
-  max-width: 100%;
-  margin: 32px auto;
-  color: var(--black);
-}
-
-.section5 h1 {
-  font-size: 50px;
-  line-height: 1.5;
-  font-weight: 200;
-}
-
-.section5 p {
-  line-height: 1.5;
-}
-
-.gridContainer {
-  column-fill: balance;
-  column-count: 3;
-  column-gap: 10px; /* Adjust column gap */
-  margin: 64px auto 0;
-}
-
-.gridCard {
-  width: 400px; /* Reduced width */
-  max-width: 100%;
-  box-sizing: border-box;
-  border-radius: 15px; /* Reduced border radius */
-  border: 1px solid var(--white);
-  padding: 16px; /* Reduced padding */
-  margin-bottom: 20px; /* Reduced margin between cards */
-  page-break-inside: avoid;
-  break-inside: avoid;
-  background-color: #355E3B; /* Changed background color */
-}
-
-.gridCard img {
-  width: 150px; /* Reduced image width */
-  height: 80px; /* Reduced image height */
-  border-radius: 5%; /* Ensure circular image */
-  margin-right: 8px;
-  align-items: center;
-}
-
-.gridCard p {
-  font-size: 14px; /* Reduced font size */
-  line-height: 1.5;
-  margin: 8px 0; /* Reduced margin */
-}
-
-.userName {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-top: 2px dotted var(--black);
-  padding: 16px 0;
-  margin-top: 32px;
-}
-
-.userName img {
-  width: 40px; /* Reduced image width */
-  height: 40px; /* Reduced image height */
-  border-radius: 50%; /* Ensure circular image */
-  margin-right: 12px;
-}
-
-@media only screen and (max-width: 992px) {
-  .gridContainer {
-      column-count: 2;
+    box-sizing: border-box;
+    width: 1320px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 32px auto;
+    color: var(--black);
   }
+  
   .section5 h1 {
-      font-size: 48px;
-      line-height: 1.5;
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 200;
   }
+  
   .section5 p {
-      line-height: 1.5;
+    line-height: 1.5;
   }
+  
   .gridContainer {
-      column-fill: balance;
-      column-count: 3;
-      column-gap: 5px; /* Adjust column gap */
-      margin: 64px auto 0;
+    column-fill: balance;
+    column-count: 3;
+    column-gap: 10px; /* Adjust column gap */
+    margin: 64px auto 0;
   }
+  
   .gridCard {
-      width: 200px; /* Reduced width */
-      max-width: 100%;
-      box-sizing: border-box;
-      border-radius: 15px; /* Reduced border radius */
-      border: 1px solid var(--black);
-      padding: 16px; /* Reduced padding */
-      margin-bottom: 20px; /* Reduced margin between cards */
-      page-break-inside: avoid;
-      break-inside: avoid;
-      background-color: #355E3B; /* Changed background color */
+    width: 400px; /* Reduced width */
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px; /* Reduced border radius */
+    border: 1px solid var(--white);
+    padding: 16px; /* Reduced padding */
+    margin-bottom: 20px; /* Reduced margin between cards */
+    page-break-inside: avoid;
+    break-inside: avoid;
+    background-color: #355E3B; /* Changed background color */
   }
+  
   .gridCard img {
-      width: 40px; /* Reduced image width */
-      height: 40px; /* Reduced image height */
-      border-radius: 50%; /* Ensure circular image */
-      margin-right: 8px;
+    width: 150px; /* Reduced image width */
+    height: 80px; /* Reduced image height */
+    border-radius: 5%; /* Ensure circular image */
+    margin-right: 8px;
+    align-items: center;
   }
+  
   .gridCard p {
-      font-size: 14px; /* Reduced font size */
-      line-height: 1.5;
-      margin: 8px 0; /* Reduced margin */
+    font-size: 14px; /* Reduced font size */
+    line-height: 1.5;
+    margin: 8px 0; /* Reduced margin */
   }
+  
   .userName {
-      box-sizing: border-box;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      border-top: 2px dotted var(--black);
-      padding: 16px 0;
-      margin-top: 32px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px dotted var(--black);
+    padding: 16px 0;
+    margin-top: 32px;
   }
+  
   .userName img {
-      width: 40px; /* Reduced image width */
-      height: 40px; /* Reduced image height */
-      border-radius: 50%; /* Ensure circular image */
-      margin-right: 12px;
+    width: 40px; /* Reduced image width */
+    height: 40px; /* Reduced image height */
+    border-radius: 50%; /* Ensure circular image */
+    margin-right: 12px;
   }
+  
   @media only screen and (max-width: 992px) {
-      .gridContainer {
-          column-count: 2;
-      }
-      .section5 h1 {
-          font-size: 36px;
-      }
-      .section5 p br {
-          display: none;
-      }
+    .gridContainer {
+        column-count: 2;
+    }
+    .section5 h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+    .section5 p {
+        line-height: 1.5;
+    }
+    .gridContainer {
+        column-fill: balance;
+        column-count: 3;
+        column-gap: 5px; /* Adjust column gap */
+        margin: 64px auto 0;
+    }
+    .gridCard {
+        width: 200px; /* Reduced width */
+        max-width: 100%;
+        box-sizing: border-box;
+        border-radius: 15px; /* Reduced border radius */
+        border: 1px solid var(--black);
+        padding: 16px; /* Reduced padding */
+        margin-bottom: 20px; /* Reduced margin between cards */
+        page-break-inside: avoid;
+        break-inside: avoid;
+        background-color: #355E3B; /* Changed background color */
+    }
+    .gridCard img {
+        width: 40px; /* Reduced image width */
+        height: 40px; /* Reduced image height */
+        border-radius: 50%; /* Ensure circular image */
+        margin-right: 8px;
+    }
+    .gridCard p {
+        font-size: 14px; /* Reduced font size */
+        line-height: 1.5;
+        margin: 8px 0; /* Reduced margin */
+    }
+    .userName {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 2px dotted var(--black);
+        padding: 16px 0;
+        margin-top: 32px;
+    }
+    .userName img {
+        width: 40px; /* Reduced image width */
+        height: 40px; /* Reduced image height */
+        border-radius: 50%; /* Ensure circular image */
+        margin-right: 12px;
+    }
+    @media only screen and (max-width: 992px) {
+        .gridContainer {
+            column-count: 2;
+        }
+        .section5 h1 {
+            font-size: 36px;
+        }
+        .section5 p br {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .gridContainer {
+            column-count: 1;
+        }
+        .gridCard {
+            width: 100%;
+        }
+    }
   }
-  @media only screen and (max-width: 768px) {
-      .gridContainer {
-          column-count: 1;
-      }
-      .gridCard {
-          width: 100%;
-      }
-  }
-}
+  
