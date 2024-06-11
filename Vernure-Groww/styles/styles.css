@@ -6,8 +6,7 @@
     background: linear-gradient(45deg, #113428,#113428);
  }
 
-
-
+ 
   .section1 {
     display: flex;
     justify-content: space-around;
@@ -76,7 +75,7 @@
     color: var(--black);
     background-image: linear-gradient(to right, aqua,rgb(140,255,157));   
     transition: all 0.4s;
-    margin-left:50vh ;
+    margin-left:60vh;
   }
   .exploreBtn:hover {
     background-color: var(--black);
@@ -94,49 +93,51 @@
   }
 
   .dark-green-box {
-    background-color: #355E3B; /* Dark green color */
-    color: white; /* White text */
-    padding: 18px; /* Padding inside the box */
-    border-radius: 10px; /* Rounded corners (optional) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow (optional) */
-    width: 800px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the box horizontally */
-    display: flex; /* Flexbox to arrange text and images side by side */
-    align-items: center; /* Center content vertically */
-    justify-content: space-between; /* Ensure the text and images are spaced evenly */
+    background-color: #355E3B; 
+    color: white; 
+    padding: 18px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 800px; 
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
     margin-top: 60px;
     height: 125px;
-    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    transition: box-shadow 0.3s ease; 
 }
 
 .dark-green-box:hover {
-    box-shadow: 0 4px 20px rgba(0, 255, 0, 0.7); /* Glowing effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 255, 0, 0.7);
 }
 
 .dark-green-box .content {
-    display: flex; /* Flexbox to arrange text and images side by side */
-    align-items: center; /* Center content vertically */
-    width: 100%; /* Take full width of the container */
-    justify-content: space-between; /* Space between text and images */
+    display: flex; 
+    
+    width: 100%; 
+    justify-content: space-between; 
+    text-align: left;
 }
 
 .dark-green-box .text {
-    width: 60%; /* Adjust the width as needed */
-    font-size: 15px;
+    width: 60%; 
+    font-size: 13px;
+    text-align: left;
 }
 
 .dark-green-box .images {
     display: flex;
-    justify-content: space-around; /* Space between images */
-    align-items: center; /* Center images vertically */
-    width: 45%; /* Adjust the width as needed */
+    justify-content: space-around; 
+    align-items: center; 
+    width: 45%; 
 }
 
 .dark-green-box .images img {
-    width: 50px; /* Adjust the width of each image as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Space around each image */
-    border-radius: 5px; /* Optional: rounded corners for images */
+    width: 50px; 
+    height: auto; 
+    margin: 10px; 
+    border-radius: 5px; 
 }
 
 
@@ -525,7 +526,7 @@
 
 ul {
   --col-gap: 1rem;
-  --row-gap: 2rem; /* Increased row gap */
+  --row-gap: 2rem; 
   --line-w: 0.2rem;
   display: grid;
   grid-template-columns: var(--line-w) 1fr;
@@ -750,3 +751,114 @@ ul li .descr::before {
   color: #2c5777;
 }
 
+.container_gain {
+  padding: 10px;
+  max-width: 1200px;
+  overflow: hidden;
+ 
+}
+h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.section8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+ 
+}
+  
+
+.leftImgBox {
+  grid-column: 1 / 2;
+}
+.leftImgBox img {
+  width: 90%;
+  height: 70vh;
+  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.7);
+}
+
+.rightContent {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 25px;
+  
+}
+.eachBox1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #355E3B;
+
+}
+.eachBox1:hover {
+  box-shadow: 0 4px 20px rgba(0, 255, 0, 0.7)
+}
+.iconNumber {
+  font-size: 24px;
+  font-weight: bold;
+  background-color:#113428;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+.contentBox {
+  flex: 1;
+}
+.contentBox h1 {
+  margin: 0;
+  font-size: 15px;
+  
+}
+.contentBox p {
+  margin: 0;
+  color:white;
+}
+@media (max-width: 768px) {
+  .section8 {
+      grid-template-columns: 1fr;
+  }
+  .leftImgBox, .rightContent {
+      grid-column: 1;
+  }
+  .eachBox1 {
+      flex-direction: column;
+      text-align: center;
+  }
+  .iconNumber {
+      margin-bottom: 10px;
+  }
+}
+
+.section7 {
+  color: var(--white);
+  padding-right: 5%;
+}
+.section7 h1 {
+  font-size: 35px;
+}
+
+.section7 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.section7 img {
+  margin-left: 25%;
+}
